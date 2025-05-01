@@ -14,20 +14,26 @@
   <!-- ========== Navbar ========== -->
 
   <body>
-    <nav id="nav-example" class="nav justify-content-center fixed-top">
-      <h3><a class="nav-link text-dark" href="#div1">Div 1</a></h3>
-      <h3><a class="nav-link text-dark" href="#div2">Div 2</a></h3>
-      <h3><a class="nav-link text-dark" href="#div3">Div 3</a></h3>
+    <nav id="nav-example" class="nav fixed-top bg-dark">
+      <h3><a class="nav-link text-white" href="#div1">Home</a></h3>
+      <h3><a class="nav-link text-white" href="#div2">News</a></h3>
+      <h3><a class="nav-link text-white" href="#div3">Contact</a></h3>
     </nav>
-    <div>
-      <div
-        data-bs-spy="scroll"
-        data-bs-target="#nav-example"
-        data-bs-smooth-scroll="true"
-        tabindex="0"
-      >
-        <div id="div1" style="height: 100vh">
-          <div class="container-fluid pt-5 pb-3" id="News">
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#nav-example"
+      data-bs-smooth-scroll="true"
+      tabindex="0"
+    >
+      <div id="div1" style="height: 100vh">
+        <div>
+          <div class="container-fluid p-5 bg-dark text-white text-center">
+            <h1>Raise the Stakes</h1>
+            <p>Lorem ipsum this a placeholder gang</p>
+          </div>
+        </div>
+        <div id="div2" class="bg-none" style="height: 100vh">
+          <div class="container-fluid pt-3 pb-3" id="News">
             <h1 class="pb-3 text-center">News</h1>
             <div class="row">
               <!-- ========== Repeatable from here ========== -->
@@ -105,14 +111,8 @@
             </div>
           </div>
         </div>
-        <div id="div2" class="bg-success" style="height: 100vh">div2</div>
         <div id="div3" class="bg-light" style="height: 100vh">div3</div>
       </div>
-    </div>
-
-    <div class="container-fluid p-5 bg-dark text-white text-center">
-      <h1>Raise the Stakes</h1>
-      <p>Lorem ipsum this a placeholder gang</p>
     </div>
   </body>
 </html>
